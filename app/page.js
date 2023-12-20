@@ -5,7 +5,7 @@ import Nearexpire from '@/components/Nearexpire'
 import Rectanglecard from '@/components/Rectanglecard'
 import Second from '@/components/Second'
 import Squarecard from '@/components/Squarecard'
-import Third from '@/components/Third'
+import Offerforyou from '@/components/Offerforyou'
 import Image from 'next/image'
 
 export default function Home() {
@@ -16,13 +16,8 @@ export default function Home() {
       <Second />
       <Nearexpire />
       <Expired />
-      <Third />
+      <Offerforyou />
       <Forth />
-      <div>
-        
-      </div>
-      <Rectanglecard/>
-      <Rectanglecard/>
       <Squarecard/>
     </main>
   )

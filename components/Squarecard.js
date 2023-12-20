@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Squarecard() {
+export default function Rectanglecard(props) {
+  const {divContent, divHight, divWidth, divBackColor, divImg} = props
   return (
-    <div className="m-2 flex-shrink-0 lg:h-64 lg:w-[17rem] bg-red1 rounded-2xl">
-          empty card for image
-            {/* <Image src="/square-card-1.svg" height="230" width="270" alt="" /> */}
-          </div>
+    <div className={`flex-shrink-0 p-1 mx-1 ${divHight} ${divWidth} ${divBackColor} rounded-2xl`}  >
+    {divContent}
+    {divImg}
+  </div>
   )
 }
 
-export default Squarecard
