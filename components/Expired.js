@@ -31,7 +31,7 @@ function Expired() {
         </div>
       </div>
       {/* m v */}
-      <div className="flex lg:hidden  justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
+      <div className="flex md:hidden  justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
         <div>
           <p className="pr-6 text-lg text-white">
             You have saved a <br /> total of
@@ -40,7 +40,7 @@ function Expired() {
         <p className="text-3xl font-extrabold text-white">Rs. 2450</p>
       </div>
 
-      <span className="md:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
+      <span className="lg:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
       <div className="grid ">
         <div className="grid pl-2 mt-2 lg:mt-0 lg:pl-0">

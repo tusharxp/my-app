@@ -3,18 +3,18 @@ import Image from "next/image";
 
 function Forth() {
   return (
-    <div className="bg-light1 mt-10 ">
+    <div className="mt-10 bg-light1 ">
       <div className="pt-12">
-        <p className=" text-center text-black font-bold lg:text-3xl ">
+        <p className="font-bold text-center text-black  lg:text-3xl">
           Here Is Why Members Love
         </p>
-        <p className=" text-center mt-3 text-red1 text-4xl font-extrabold">
+        <p className="mt-3 text-4xl font-extrabold text-center  text-red1">
           Travelxp RED
         </p>
       </div>
 
       <div className="hidden md:block">
-        <div className=" grid grid-rows-2 grid-flow-col justify-center gap-7 content-center m-14 pb-24">
+        <div className="grid content-center justify-center grid-flow-col grid-rows-2 pb-24  gap-7 m-14">
           <div className=" bg-gradient-to-r from-red-400 to-rose-600 rounded-l-full text-white lg:w-[27rem] p-5 lg:flex relative">
             <Image
               className="mr-2 bg-white absolute top-6 -left-11 border-[6px] rounded-full border-light1 w-[100px] h-[100px]"
@@ -25,7 +25,7 @@ function Forth() {
             />
             <div className="lg:m-5 lg:pl-[4rem]">
               <h1 className="mb-2 font-semibold">Your Journey, Our Story</h1>
-              <p className=" font-thin text-xs">
+              <p className="text-xs font-thin ">
                 Over 500 million viewers watch Travelxp every month to explore
                 the world in stunning 4K HDR and plan their next favourite
                 holiday.
@@ -43,7 +43,7 @@ function Forth() {
             />
             <div className="lg:m-5 lg:pl-[4rem]">
               <h1 className="mb-2 font-semibold">Always About You</h1>
-              <p className=" font-thin text-xs">
+              <p className="text-xs font-thin ">
                 Even during Covid, 83% of our customers trusted us for refund.
                 We are Indias most trusted travel brand.
               </p>
@@ -53,7 +53,7 @@ function Forth() {
           <div className="bg-gradient-to-r from-red-600 to-rose-400 rounded-r-full text-white lg:w-[27rem] lg:flex p-5 relative">
             <div className="lg:m-5">
               <h1 className="mb-2 font-semibold">Make Trvel Your Lifestyle</h1>
-              <p className=" font-thin text-xs">
+              <p className="text-xs font-thin ">
                 Get special documents on your hotel and flight bookings.
               </p>
             </div>
@@ -85,9 +85,9 @@ function Forth() {
         </div>
       </div>
       {/* mobile view */}
-      <div className="lg:hidden flex overflow-x-auto no-scrollbar max-w-full pt-10 pb-28">
-        <div className="bg-red1 text-white w-64 mx-1 rounded-3xl h-64 flex-shrink-0">
-          <div className="bg-white rounded-t-3xl flex justify-center items-center">
+      <div className="flex max-w-full pt-10 overflow-x-auto md:hidden no-scrollbar pb-28">
+        <div className="flex-shrink-0 w-64 h-64 mx-1 text-white bg-red1 rounded-3xl">
+          <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="mr-2 "
               src="/illustration-1.svg"
@@ -97,17 +97,17 @@ function Forth() {
             ></Image>
           </div>
           <div className="bg-red1 ">
-            <h1 className="font-semibold text-center p-2">
+            <h1 className="p-2 font-semibold text-center">
               Your Journey, Our Story
             </h1>
-            <p className=" text-center font-thin text-xs px-1">
+            <p className="px-1 text-xs font-thin text-center ">
               Over 500 million viewers watch Travelxp every month to explore the
               world in stunning 4K HDR and plan their next favourite holiday.
             </p>
           </div>
         </div>
-        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
-          <div className="bg-white rounded-t-3xl flex justify-center items-center">
+        <div className="flex-shrink-0 h-64 mx-1 text-white bg-red1 w-72 rounded-3xl">
+          <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="mr-2"
               src="/illustration-3.svg"
@@ -117,17 +117,17 @@ function Forth() {
             ></Image>
           </div>
           <div className="bg-red1 ">
-            <h1 className="mb-2 text-center font-semibold p-2">
+            <h1 className="p-2 mb-2 font-semibold text-center">
               Always About You
             </h1>
-            <p className=" text-center font-thin text-xs p-2">
+            <p className="p-2 text-xs font-thin text-center ">
               Even during Covid, 83% of our customers trusted us for refund. We
               are Indias most trusted travel brand.
             </p>
           </div>
         </div>
-        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0 ">
-          <div className="bg-white rounded-t-3xl flex justify-center items-center">
+        <div className="flex-shrink-0 h-64 mx-1 text-white bg-red1 w-72 rounded-3xl ">
+          <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="ml-2"
               src="/Mask Group 58.svg"
@@ -137,16 +137,16 @@ function Forth() {
             ></Image>
           </div>
           <div className="">
-            <h1 className="mb-2 text-center font-semibold p-2">
+            <h1 className="p-2 mb-2 font-semibold text-center">
               Make Trvel Your Lifestyle
             </h1>
-            <p className=" text-center font-thin text-xs p-2">
+            <p className="p-2 text-xs font-thin text-center ">
               Get special documents on your hotel and flight bookings.
             </p>
           </div>
         </div>
-        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
-          <div className="bg-white rounded-t-3xl flex justify-center items-center">
+        <div className="flex-shrink-0 h-64 mx-1 text-white bg-red1 w-72 rounded-3xl">
+          <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="ml-2"
               src="/illustration-4.svg"
@@ -156,10 +156,10 @@ function Forth() {
             ></Image>
           </div>
           <div className="bg-red1 ">
-            <h1 className="mb-2 text-center font-semibold p-2">
+            <h1 className="p-2 mb-2 font-semibold text-center">
               Share The Happiness
             </h1>
-            <p className=" text-center font-thin text-xs p-2">
+            <p className="p-2 text-xs font-thin text-center ">
               Share your membership with your friends and family! One for all,
               Travelxp RED!
             </p>

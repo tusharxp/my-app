@@ -30,8 +30,8 @@ function Second() {
           alt=""
         ></Image>
       </div>
-      <hr className="w-3/4 border-1 lg:hidden" />
-      <span className="md:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
+      <hr className="w-3/4 border-1 md:hidden" />
+      <span className="lg:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
       <div className="mt-2 text-center lg:text-left lg:mt-0 lg:px-0">
         <p className="text-white lg:my-2 lg:text-lg lg:pl-2 font-medium text-[0.9rem] px-2">
