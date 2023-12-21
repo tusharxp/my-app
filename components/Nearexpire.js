@@ -14,7 +14,7 @@ function Nearexpire() {
         width="60"
         alt=""
       ></Image>
-      <div className="relative w-full text-center lg:text-left lg:pr-12 md:text-center lg:w-auto">
+      <div className="relative text-center lg:text-left lg:pr-12 md:text-center ">
         <p className="py-1 pl-1 text-2xl text-white md:text-center lg:text-left">
           Expires in
         </p>
@@ -34,9 +34,6 @@ function Nearexpire() {
           <Yousavedcard savedAmount={"Rs. 2450"} />
         </div>
       </div>
-
-      <span className="lg:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
-
       {/* MV */}
       <div className="flex md:hidden justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
         <div>
@@ -46,6 +43,9 @@ function Nearexpire() {
         </div>
         <p className="text-3xl font-extrabold text-white">Rs. 2450</p>
       </div>
+
+      <span className="lg:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
+
 
       <div>
         <div className="flex px-2 text-center">

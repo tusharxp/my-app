@@ -9,8 +9,24 @@ function Third() {
       <div className="mx-auto mt-20 ">
         <p className="pl-2 text-lg font-bold text-black">Offers For You</p>
         <div className="flex pt-2 overflow-x-scroll no-scrollbar lg:justify-center">
-          <Rectanglecard divheight={'h-64'} divWidth={'w-[36rem]'} />
-          <Rectanglecard divheight={'h-64'} divWidth={'w-[36rem]'} />
+          <Rectanglecard 
+           divImg={
+              <Image
+                src={"/rectange-card-1.svg"}
+                height={100}
+                width={560}
+                alt=""
+              />
+            } />
+          <Rectanglecard 
+           divImg={
+              <Image
+                src={"/rectange-card-1.svg"}
+                height={100}
+                width={560}
+                alt=""
+              />
+            } />
         </div>
       </div>
 
