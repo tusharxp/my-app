@@ -1,5 +1,5 @@
 import Expired from '@/components/Expired'
-import First from '@/components/First'
+import Welcome from '@/components/Welcome'
 import Forth from '@/components/Forth'
 import Nearexpire from '@/components/Nearexpire'
 import Second from '@/components/Second'
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen bg-white">
       {/* <Navbar /> */}
-      <First />
+      <Welcome />
       <Second />
       <Nearexpire />
       <Expired />
