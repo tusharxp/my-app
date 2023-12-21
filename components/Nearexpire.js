@@ -30,7 +30,7 @@ function Nearexpire() {
           alt=""
         />
 
-        <div className="hidden sm:block">
+        <div className="hidden md:block">
           <Yousavedcard savedAmount={"Rs. 2451"} />
         </div>
       </div>
