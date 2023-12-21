@@ -6,7 +6,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Nearexpire() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-10 bg-gradient-to-r from-red-400 to-rose-600 lg:px-64 justify-items-center ">
+    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-10 bg-gradient-to-r from-red-400 to-rose-600 xl:px-64 justify-items-center ">
       <Image
         className="absolute hidden opacity-25 md:block mb-80 top-8 left-10"
         src="/percent.svg"
@@ -14,7 +14,7 @@ function Nearexpire() {
         width="60"
         alt=""
       ></Image>
-      <div className="relative text-center lg:text-left lg:pr-12 md:text-center ">
+      <div className="relative text-center lg:text-left xl:pr-12 md:text-center lg:pl-10 xl:pl-0">
         <p className="py-1 pl-1 text-2xl text-white md:text-center lg:text-left">
           Expires in
         </p>
@@ -23,7 +23,7 @@ function Nearexpire() {
         </p>
 
         <Image
-          className="absolute hidden opacity-25 md:block mb-80 -top-6 right-2"
+          className="absolute opacity-25 md:block mb-80 -top-6 right-2"
           src="/percent.svg"
           height="20"
           width="40"
@@ -44,7 +44,7 @@ function Nearexpire() {
         <p className="text-3xl font-extrabold text-white">Rs. 2450</p>
       </div>
 
-      <span className="lg:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
+      <span className="xl:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
 
       <div>
@@ -125,7 +125,7 @@ function Nearexpire() {
         </div>
       </div>
       <Image
-        className="absolute hidden opacity-25 md:block mt-80 top-8 right-10"
+        className="absolute hidden opacity-25 lg:hidden xl:block md:block mt-80 top-8 right-10"
         src="/percent.svg"
         height="40"
         width="132"

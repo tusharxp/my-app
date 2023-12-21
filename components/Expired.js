@@ -6,7 +6,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Expired() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-10 bg-gradient-to-r from-red-400 to-rose-600 lg:px-64 justify-items-center ">
+    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-10 bg-gradient-to-r from-red-400 to-rose-600 xl:px-64 justify-items-center ">
       <Image
         className="absolute hidden opacity-25 md:block top-8 left-10"
         src="/percent.svg"
@@ -14,13 +14,13 @@ function Expired() {
         width="60"
         alt=""
       ></Image>
-      <div className="relative text-center lg:text-left lgL:pr-12">
+      <div className="relative text-center lg:text-left xl:pr-12 lg:pl-10 xl:pl-0">
         <p className="py-1 pl-1 text-2xl text-white">Your plan has</p>
         <p className="px-2 py-2 pl-1 text-6xl font-bold tracking-wider text-white bg-red-400 rounded-full lg:bg-transparent bg-opacity-60 lg:px-0">
           EXPIRED
         </p>
         <Image
-          className="absolute hidden opacity-25 md:block mb-80 -top-6 -right-2"
+          className="absolute opacity-25 md:block mb-80 -top-6 -right-2"
           src="/percent.svg"
           height="20"
           width="40"
@@ -40,7 +40,7 @@ function Expired() {
         <p className="text-3xl font-extrabold text-white">Rs. 2450</p>
       </div>
 
-      <span className="lg:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
+      <span className="xl:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
       <div className="grid ">
         <div className="grid pl-2 mt-2 lg:mt-0 lg:pl-0">
@@ -109,7 +109,7 @@ function Expired() {
         />
       </div>
       <Image
-        className="absolute hidden opacity-25 md:block mt-80 w-top-8 right-10"
+        className="absolute hidden opacity-25 lg:hidden xl:block md:block mt-80 w-top-8 right-10"
         src="/percent.svg"
         height="20"
         width="132"

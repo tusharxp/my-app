@@ -8,7 +8,7 @@ function Third() {
     <>
       <div className="mx-auto mt-20 ">
         <p className="pl-2 text-lg font-bold text-black">Offers For You</p>
-        <div className="flex pt-2 overflow-x-scroll no-scrollbar lg:justify-center">
+        <div className="flex pt-2 overflow-x-scroll no-scrollbar md:justify-center">
           <Rectanglecard 
            divImg={
               <Image

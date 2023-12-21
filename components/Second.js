@@ -4,7 +4,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Second() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-1 lg:px-64 bg-gradient-to-r from-red-400 to-rose-600">
+    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-1 xl:px-64 bg-gradient-to-r from-red-400 to-rose-600 lg:pb-10">
       <Image
         className="absolute opacity-25 mb-52 top-8 left-10"
         src="/percent.svg"
@@ -12,7 +12,7 @@ function Second() {
         width="60"
         alt=""
       ></Image>
-      <div className="lg:text-left text-center pb-5 lg:pb-0 lg:border-b-0 lg:pr-12 w-[25rem] relative">
+      <div className="lg:text-left text-center pb-5 lg:pb-0 lg:border-b-0 xl:pr-12 w-[25rem] relative lg:pl-10 xl:pl-0">
         <p className="text-xl text-white lg:text-2xl lg:pl-1 lg:py-1">
           Book now to
         </p>
