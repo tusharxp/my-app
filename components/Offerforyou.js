@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Rectanglecard from "./Rectanglecard";
+import Squarecard from "./Squarecard";
 
 function Third() {
   return (
@@ -8,33 +9,15 @@ function Third() {
       <div className="mx-auto mt-20 ">
         <p className="pl-2 text-lg font-bold text-black">Offers For You</p>
         <div className="flex pt-2 overflow-x-scroll no-scrollbar lg:justify-center">
-          <Rectanglecard divheight={'h-64'} 
-            divImg={
-              <Image
-                src={"/rectange-card-1.svg"}
-                height={100}
-                width={556}
-                alt=""
-              />
-            }
-          />
-          <Rectanglecard divheight={'h-64'}
-            divImg={
-              <Image
-                src={"/rectangle-card-2.svg"}
-                height={300}
-                width={560}
-                alt=""
-              />
-            }
-          />
+          <Rectanglecard divheight={'h-64'} divWidth={'w-[36rem]'} />
+          <Rectanglecard divheight={'h-64'} divWidth={'w-[36rem]'} />
         </div>
       </div>
 
       <div className="mx-auto mt-20 mb-10">
         <p className="pl-2 text-lg font-bold text-black">More Offers For You</p>
         <div className="flex pt-2 overflow-x-scroll no-scrollbar lg:justify-center">
-          <Rectanglecard
+          <Squarecard
             divImg={
               <Image
                 src={"/square-card-1.svg"}
@@ -44,7 +27,7 @@ function Third() {
               />
             }
           />
-          <Rectanglecard
+          <Squarecard
             divImg={
               <Image
                 src={"/square-card-2.svg"}
@@ -54,7 +37,7 @@ function Third() {
               />
             }
           />
-          <Rectanglecard
+          <Squarecard
             divImg={
               <Image
                 src={"/square-card-3.svg"}
@@ -64,7 +47,7 @@ function Third() {
               />
             }
           />
-          <Rectanglecard
+          <Squarecard
             divImg={
               <Image
                 src={"/square-card-4.svg"}
