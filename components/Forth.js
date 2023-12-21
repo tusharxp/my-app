@@ -5,16 +5,16 @@ function Forth() {
   return (
     <div className="mt-10 bg-light1 ">
       <div className="pt-12">
-        <p className="font-bold text-center text-black  lg:text-3xl">
+        <p className="font-bold text-center text-black lg:text-3xl">
           Here Is Why Members Love
         </p>
-        <p className="mt-3 text-4xl font-extrabold text-center  text-red1">
+        <p className="mt-3 text-4xl font-extrabold text-center text-red1">
           Travelxp RED
         </p>
       </div>
 
       <div className="hidden md:block">
-        <div className="grid content-center justify-center grid-flow-col grid-rows-2 pb-24  gap-7 m-14">
+        <div className="grid content-center justify-center grid-flow-col grid-rows-2 pb-24 gap-7 m-14">
           <div className=" bg-gradient-to-r from-red-400 to-rose-600 rounded-l-full text-white lg:w-[27rem] p-5 lg:flex relative">
             <Image
               className="mr-2 bg-white absolute top-6 -left-11 border-[6px] rounded-full border-light1 w-[100px] h-[100px]"

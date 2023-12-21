@@ -5,15 +5,15 @@ function First() {
   return (
     <div className="bg-gradient-to-t from-rose-100 to-orange-50 bg-light1 ">
       <div className="pt-10 xl:px-40">
-        <div className="flex flex-wrap items-center justify-around lg:flex-nowrap lg:justify- xl:justify-around sm:mx-auto xl:px-4 justify-items-center">
-          <div className="text-center lg:text-left md:text-center xl:pt-10">
-            <p className="py-2 text-3xl font-semibold text-black xl:text-3xl lg:text-2xl ">
+        <div className="flex flex-wrap items-center justify-around sm:flex-nowrap md:justify-around sm:mx-auto md:px-4 justify-items-center">
+          <div className="text-center md:text-left sm:text-center xl:pt-10">
+            <p className="py-2 text-3xl font-semibold text-black lg:text-3xl sm:text-2xl ">
               Welcome to
             </p>
-            <p className=" xl:text-5xl lg:text-3xl text-4xl font-[900] text-red1 tracking-wider">
+            <p className=" lg:text-5xl sm:text-3xl text-4xl font-[900] text-red1 tracking-wider">
               Travelxp RED
             </p>
-            <div className="hidden p-4 mt-3 text-xs bg-white lgp-3 rounded-2xl md:block">
+            <div className="hidden p-4 mt-3 text-xs bg-white md:p-3 rounded-2xl md:block">
               <p className="flex justify-between py-1 font-medium tracking-wider text-left text-gray-800">
                 Current Plan Duration :
                 <span className="font-extrabold">365 Days</span>

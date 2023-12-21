@@ -4,7 +4,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Second() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-1 xl:px-64 bg-gradient-to-r from-red-400 to-rose-600 lg:pb-10">
+    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-1 md:flex-nowrap xl:px-64 bg-gradient-to-r from-red-400 to-rose-600 md:pb-10">
       <Image
         className="absolute opacity-25 mb-52 top-8 left-10"
         src="/percent.svg"
@@ -12,8 +12,8 @@ function Second() {
         width="60"
         alt=""
       ></Image>
-      <div className="lg:text-left text-center pb-5 lg:pb-0 lg:border-b-0 xl:pr-12 w-[25rem] relative lg:pl-10 xl:pl-0">
-        <p className="text-xl text-white lg:text-2xl lg:pl-1 lg:py-1">
+      <div className="md:text-left text-center pb-5 lg:pb-0 lg:border-b-0 xl:pr-12 w-[25rem] relative md:pl-10 xl:pl-0">
+        <p className="text-xl text-white md:text-2xl lg:pl-1 lg:py-1">
           Book now to
         </p>
         <p className="text-5xl font-bold tracking-wider text-white lg:text-6xl lg:pl-1 lg:py-1">
@@ -33,14 +33,14 @@ function Second() {
       <hr className="w-3/4 border-1 md:hidden" />
       <span className="xl:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
-      <div className="mt-2 text-center lg:text-left lg:mt-0 lg:px-0">
-        <p className="text-white lg:my-2 lg:text-lg lg:pl-2 font-medium text-[0.9rem] px-2">
+      <div className="mt-2 text-center md:text-left lg:mt-0 lg:px-0">
+        <p className="text-white md:my-2 md:text-lg md:pl-2 font-medium text-[0.9rem] px-2">
           Make travel your lifestyle with the Travelxp RED.
         </p>
-        <p className="px-2 text-white lg:mb-5 lg:text-lg lg:pl-2">
+        <p className="px-2 text-white md:mb-5 md:text-lg md:pl-2">
           Avail these exclusive discounts and offers with your membership!
         </p>
-        <div className="grid mt-2 lg:mt-0">
+        <div className="grid mt-2 md:mt-0">
           <div className="flex overflow-x-scroll no-scrollbar">
             <Offersquarecard
               divImg={

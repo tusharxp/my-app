@@ -6,7 +6,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Nearexpire() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-10 bg-gradient-to-r from-red-400 to-rose-600 xl:px-64 justify-items-center ">
+    <div className="relative flex flex-wrap items-center justify-around pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-600 xl:px-64 justify-items-center ">
       <Image
         className="absolute hidden opacity-25 md:block mb-80 top-8 left-10"
         src="/percent.svg"
@@ -14,12 +14,12 @@ function Nearexpire() {
         width="60"
         alt=""
       ></Image>
-      <div className="relative text-center lg:text-left xl:pr-12 md:text-center lg:pl-10 xl:pl-0">
-        <p className="py-1 pl-1 text-2xl text-white md:text-center lg:text-left">
+      <div className="relative text-center md:text-left md:pr-12 sm:text-center md:pl-10 xl:pl-0">
+        <p className="py-1 pl-1 text-2xl text-white sm:text-center md:text-left">
           Expires in
         </p>
-        <p className="mx-20 text-5xl font-bold tracking-wide text-white bg-red-400 rounded-full lg:bg-transparent bg-opacity-60 lg:mx-0 lg:text-6xl lg:py-2 lg:pl-1 ">
-          45 DAYS{" "}
+        <p className="mx-20 text-4xl font-bold tracking-wide text-white bg-red-400 rounded-full sm:mx-0 md:bg-transparent bg-opacity-60 lg:mx-0 md:text-6xl md:py-2 md:pl-1 ">
+          {"45 DAYS"}
         </p>
 
         <Image
@@ -30,8 +30,8 @@ function Nearexpire() {
           alt=""
         />
 
-        <div className="hidden md:block">
-          <Yousavedcard savedAmount={"Rs. 2450"} />
+        <div className="hidden sm:block">
+          <Yousavedcard savedAmount={"Rs. 2451"} />
         </div>
       </div>
       {/* MV */}
@@ -125,7 +125,7 @@ function Nearexpire() {
         </div>
       </div>
       <Image
-        className="absolute hidden opacity-25 lg:hidden xl:block md:block mt-80 top-8 right-10"
+        className="absolute hidden opacity-25 md:hidden xl:block mt-80 top-8 right-10"
         src="/percent.svg"
         height="40"
         width="132"
