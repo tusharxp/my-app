@@ -116,7 +116,7 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-red1 ">
+          <div className="bg-red1 rounded-xl">
             <h1 className="p-2 mb-2 font-semibold text-center">
               Always About You
             </h1>

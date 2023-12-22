@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Plandetails from "./Plandetails";
 
 function First() {
   return (
@@ -13,20 +14,9 @@ function First() {
             <p className=" lg:text-5xl sm:text-3xl text-4xl font-[900] text-red1 tracking-wider">
               Travelxp RED
             </p>
-            <div className="hidden p-4 mt-3 text-xs bg-white md:p-3 rounded-2xl md:block">
-              <p className="flex justify-between py-1 font-medium tracking-wider text-left text-gray-800">
-                Current Plan Duration :
-                <span className="font-extrabold">365 Days</span>
-              </p>
-              <p className="flex justify-between py-1 font-medium tracking-wider text-left text-gray-800">
-                Subscription Amount :
-                <span className="font-extrabold ">1899</span>
-              </p>
-              <p className="flex justify-between py-1 font-medium tracking-wider text-left text-gray-800">
-                Plan Expiry Date :
-                <span className="font-extrabold ">6 Dec 2022</span>
-              </p>
-            </div>
+            
+            <Plandetails planDuration={'365 Days'} amount={'1899'} expiryDate={'6 Dec 2022'} />
+            
           </div>
           <img
             src={"/heroImage.png"}

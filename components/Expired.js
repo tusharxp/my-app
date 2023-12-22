@@ -26,10 +26,13 @@ function Expired() {
           width="40"
           alt=""
         ></Image>
+
         <div className="hidden md:block">
           <Yousavedcard savedAmount={"Rs. 2450"} />
         </div>
+        
       </div>
+      
       {/* m v */}
       <div className="flex md:hidden  justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
         <div>
