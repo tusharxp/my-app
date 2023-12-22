@@ -6,7 +6,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Expired() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-600 xl:px-64 justify-items-center ">
+    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-600 xl:px-52 justify-items-center ">
       <Image
         className="absolute hidden opacity-25 md:block top-8 left-10"
         src="/percent.svg"
@@ -14,9 +14,9 @@ function Expired() {
         width="60"
         alt=""
       ></Image>
-      <div className="relative text-center md:text-left md:pr-12 md:pl-10 xl:pl-0">
+      <div className="relative w-full text-center md:w-96 md:text-left md:pr-12 md:pl-8 xl:pl-0">
         <p className="py-1 pl-1 text-2xl text-white">Your plan has</p>
-        <p className="px-2 py-2 pl-1 text-5xl font-bold tracking-wider text-white bg-red-400 rounded-full md:text-6xl md:bg-transparent bg-opacity-60 md:px-0">
+        <p className="py-2 pl-1 text-4xl font-bold tracking-wider text-white bg-red-400 rounded-full px- md:text-6xl md:bg-transparent bg-opacity-60 md:px-0">
           EXPIRED
         </p>
         <Image
@@ -27,25 +27,15 @@ function Expired() {
           alt=""
         ></Image>
 
-        <div className="hidden md:block">
-          <Yousavedcard savedAmount={"Rs. 2450"} />
+        <div className="">
+          <Yousavedcard savedAmount={"₹ 2450"} />
         </div>
         
       </div>
       
-      {/* m v */}
-      <div className="flex md:hidden  justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
-        <div>
-          <p className="pr-6 text-lg text-white">
-            You have saved a <br /> total of
-          </p>
-        </div>
-        <p className="text-3xl font-extrabold text-white">Rs. 2450</p>
-      </div>
-
       <span className="xl:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
-      <div className="grid ">
+      <div className="grid xl:mr-[33px]">
         <div className="grid pl-2 mt-2 md:mt-0 md:pl-0">
           <div className="flex overflow-x-scroll no-scrollbar">
             <Offersquarecard

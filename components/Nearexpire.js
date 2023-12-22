@@ -6,7 +6,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Nearexpire() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-600 xl:px-64 justify-items-center ">
+    <div className="relative flex flex-wrap items-center justify-around pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-600 xl:px-52 justify-items-center ">
       <Image
         className="absolute hidden opacity-25 md:block mb-80 top-8 left-10"
         src="/percent.svg"
@@ -14,7 +14,7 @@ function Nearexpire() {
         width="60"
         alt=""
       ></Image>
-      <div className="relative text-center md:text-left md:pr-12 sm:text-center md:pl-10 xl:pl-0">
+      <div className="relative w-full text-center md:w-96 md:text-left md:pr-12 sm:text-center md:pl-10 xl:pl-0">
         <p className="py-1 pl-1 text-2xl text-white sm:text-center md:text-left">
           Expires in
         </p>
@@ -30,24 +30,15 @@ function Nearexpire() {
           alt=""
         />
 
-        <div className="hidden md:block">
-          <Yousavedcard savedAmount={"Rs. 2451"} />
+        <div className="">
+          <Yousavedcard savedAmount={"₹ 2451"} divWidth={'sm:w-full'}/>
         </div>
-      </div>
-      {/* MV */}
-      <div className="flex md:hidden justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
-        <div>
-          <p className="pr-6 text-lg text-white">
-            You have saved a <br /> total of
-          </p>
-        </div>
-        <p className="text-3xl font-extrabold text-white">Rs. 2450</p>
       </div>
 
       <span className="xl:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
 
-      <div>
+      <div className="xl:mr-[33px]">
         <div className="flex px-2 text-center">
           <div className="m-1">
             <p className="pl-2 text-white ">
