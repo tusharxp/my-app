@@ -14,8 +14,9 @@ function Third() {
               <Image
                 src={"/rectange-card-1.svg"}
                 height={100}
-                width={560}
+                width={360}
                 alt=""
+                className="md:hidden"
               />
             } />
           <Rectanglecard 
@@ -23,11 +24,13 @@ function Third() {
               <Image
                 src={"/rectange-card-1.svg"}
                 height={100}
-                width={560}
+                width={360}
                 alt=""
+                className="md:hidden"
               />
             } />
         </div>
+        
       </div>
 
       <div className="mx-auto mt-20 mb-10">
