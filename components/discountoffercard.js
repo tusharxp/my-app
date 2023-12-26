@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Statusoffercard(props) {
+export default function Discountoffercard(props) {
   const {divContent, divHight, divWidth, divBGColor, divImg, divBottom, divCenter, divTop, divBtn} = props
   return (
     <div className={`flex justify-around mx-2 my-5 py-6 rounded-xl ${divHight} ${divWidth} ${divBGColor} border-white border-[0.5px] bg-opacity-50 p-3 `}  >

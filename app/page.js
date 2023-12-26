@@ -1,6 +1,6 @@
 import Usersubexpired from '@/components/usersubexpired'
 import Firstsection from '@/components/firstsection'
-import Forth from '@/components/Forth'
+import Lastsectiom from '@/components/lastsectiom'
 import Usersubnearexpire from '@/components/usersubnearexpire'
 import Usersubnormalui from '@/components/usersubnormalui'
 import Offerforuser from '@/components/offerforuser'
@@ -14,7 +14,7 @@ export default function Home() {
       <Usersubnearexpire />
       <Usersubexpired/>
       <Offerforuser />
-      <Forth />
+      <Lastsectiom />
     </main>
   )
 }

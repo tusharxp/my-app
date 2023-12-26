@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Offersquarecard from "./Offersquarecard";
+import Dealsquarecard from "./dealsquarecard";
 
 function usersubnormalui() {
   return (
@@ -42,7 +42,7 @@ function usersubnormalui() {
         </p>
         <div className="grid mt-2 md:mt-0">
           <div className="flex overflow-x-scroll no-scrollbar">
-            <Offersquarecard
+            <Dealsquarecard
               divImg={
                 <Image
                   src="/airplane.svg"
@@ -57,7 +57,7 @@ function usersubnormalui() {
               divWidth={"w-40"}
               divBGColor={"bg-white"}
             />
-            <Offersquarecard
+            <Dealsquarecard
               divImg={
                 <Image
                   src="/hotel.svg"
@@ -72,7 +72,7 @@ function usersubnormalui() {
               divWidth={"w-40"}
               divBGColor={"bg-white"}
             />
-            <Offersquarecard
+            <Dealsquarecard
               divImg={
                 <Image
                   src="/holiday.svg"

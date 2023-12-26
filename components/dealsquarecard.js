@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Offersquarecard(props) {
+export default function dealsquarecard(props) {
   const { savedAmount, divHight, divWidth, divBGColor, divImg } = props;
   return (
     <div className={`${divHight} ${divWidth} ${divBGColor} text-left flex-shrink-0 rounded-xl p-3 mt-3 ml-3 mr-1`}>

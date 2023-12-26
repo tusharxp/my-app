@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Ammountusersaved from "./ammountusersaved";
-import Offersquarecard from "./Offersquarecard";
-import Statusoffercard from "./Statusoffercard";
+import Dealsquarecard from "./dealsquarecard";
+import Discountoffercard from "./discountoffercard";
 
 function usersubexpired() {
   return (
@@ -38,7 +38,7 @@ function usersubexpired() {
       <div className="grid xl:mr-[33px] lg:ml-[0px] 2xl:ml-0">
         <div className="grid pl-2 mt-2 md:mt-0 md:pl-0">
           <div className="flex overflow-x-scroll no-scrollbar">
-            <Offersquarecard
+            <Dealsquarecard
               divImg={
                 <Image
                   src="/airplane.svg"
@@ -53,7 +53,7 @@ function usersubexpired() {
               divWidth={"w-40"}
               divBGColor={"bg-white"}
             />
-            <Offersquarecard
+            <Dealsquarecard
               divImg={
                 <Image
                   src="/hotel.svg"
@@ -68,7 +68,7 @@ function usersubexpired() {
               divWidth={"w-40"}
               divBGColor={"bg-white"}
             />
-            <Offersquarecard
+            <Dealsquarecard
               divImg={
                 <Image
                   src="/holiday.svg"
@@ -85,7 +85,7 @@ function usersubexpired() {
             />
           </div>
         </div>
-        <Statusoffercard
+        <Discountoffercard
           divBGColor={"bg-red-400"}
           divTop={"Renew now to get an"}
           divCenter={"Additional Month"}

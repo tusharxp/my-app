@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Ammountusersaved from "./ammountusersaved";
-import Statusoffercard from "./discountcard";
-import Offersquarecard from "./Offersquarecard";
+import Discountoffercard from "./discountcard";
+import Dealsquarecard from "./dealsquarecard";
 
 function usersubnearexpire() {
   return (
@@ -56,7 +56,7 @@ function usersubnearexpire() {
         <div className="grid ">
           <div className="grid mt-2 lg:mt-0">
             <div className="flex overflow-x-scroll no-scrollbar">
-              <Offersquarecard
+              <Dealsquarecard
                 divImg={
                   <Image
                     src="/airplane.svg"
@@ -71,7 +71,7 @@ function usersubnearexpire() {
                 divWidth={"w-40"}
                 divBGColor={"bg-white"}
               />
-              <Offersquarecard
+              <Dealsquarecard
                 divImg={
                   <Image
                     src="/hotel.svg"
@@ -86,7 +86,7 @@ function usersubnearexpire() {
                 divWidth={"w-40"}
                 divBGColor={"bg-white"}
               />
-              <Offersquarecard
+              <Dealsquarecard
                 divImg={
                   <Image
                     src="/holiday.svg"
@@ -103,7 +103,7 @@ function usersubnearexpire() {
               />
             </div>
           </div>
-          <Statusoffercard
+          <Discountoffercard
             divBtn={"Book Now"}
             divBottom={" On Flights, Hotels and Holidays free"}
             divTop={"Enjoy your benifits of"}
