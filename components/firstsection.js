@@ -1,6 +1,6 @@
 import React from "react";
 import Subscriptiondetails from "./subscriptiondetails";
-
+import {user} from "../user"
 
 function firstsection() {
   return (
@@ -15,7 +15,7 @@ function firstsection() {
               Travelxp RED
             </p>
             
-            <Subscriptiondetails planDuration={'365 Days'} amount={'1899'} expiryDate={'6 Dec 2022'} />
+            <Subscriptiondetails planDuration={'365 Days'} amount={`${user.user.subscription.amount}`} expiryDate={'6 Dec 2022'} />
             
           </div>
           <img
