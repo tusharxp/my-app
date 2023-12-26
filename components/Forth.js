@@ -100,13 +100,13 @@ function Forth() {
             <h1 className="p-2 font-semibold text-center">
               Your Journey, Our Story
             </h1>
-            <p className="px-1 text-xs font-thin text-center ">
+            <p className="px-2 text-[10px] font-thin text-center ">
               Over 500 million viewers watch Travelxp every month to explore the
               world in stunning 4K HDR and plan their next favourite holiday.
             </p>
           </div>
         </div>
-        <div className="flex-shrink-0 h-64 mx-1 text-white bg-rose-400 w-72 rounded-3xl">
+        <div className="flex-shrink-0 w-64 h-64 mx-1 text-white bg-rose-400 rounded-3xl">
           <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="mr-2"
@@ -117,10 +117,10 @@ function Forth() {
             ></Image>
           </div>
           <div className="bg-rose-400 rounded-xl">
-            <h1 className="p-2 mb-2 font-semibold text-center">
+            <h1 className="px-2 pt-2 font-semibold text-center">
               Always About You
             </h1>
-            <p className="p-2 text-xs font-thin text-center ">
+            <p className="px-2 text-[10px] font-thin text-center ">
               Even during Covid, 83% of our customers trusted us for refund. We
               are Indias most trusted travel brand.
             </p>
@@ -132,15 +132,15 @@ function Forth() {
               className="ml-2"
               src="/Mask Group 58.svg"
               height="100"
-              width="135"
+              width="132"
               alt=""
-            ></Image>
+            />
           </div>
           <div className="">
-            <h1 className="p-2 mb-2 font-semibold text-center">
+            <h1 className="px-2 pt-2 font-semibold text-center">
               Make Trvel Your Lifestyle
             </h1>
-            <p className="p-2 text-xs font-thin text-center ">
+            <p className="px-2 text-[10px] font-thin text-center ">
               Get special documents on your hotel and flight bookings.
             </p>
           </div>
@@ -155,11 +155,11 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-rose-400 ">
-            <h1 className="p-2 mb-2 font-semibold text-center">
+          <div className="bg-rose-400">
+            <h1 className="px-2 pt-2 font-semibold text-center">
               Share The Happiness
             </h1>
-            <p className="p-2 text-xs font-thin text-center ">
+            <p className="px-2 text-[10px] font-thin text-center ">
               Share your membership with your friends and family! One for all,
               Travelxp RED!
             </p>
