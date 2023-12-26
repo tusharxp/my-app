@@ -1,46 +1,42 @@
 import React from "react";
 import Image from "next/image";
+import Ammountusersaved from "./ammountusersaved";
 import Offersquarecard from "./Offersquarecard";
+import Statusoffercard from "./Statusoffercard";
 
-function Second() {
+function usersubexpired() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around w-full pt-12 pb-1 md:flex-nowrap xl:px-52 bg-gradient-to-r from-red-400 to-rose-500 md:pb-10">
+    <div className="relative flex flex-wrap items-center w-full pt-12 pb-10 justify-evenly md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-500 xl:px-28 2xl:px-52 justify-items-center ">
       <Image
-        className="absolute opacity-25 mb-52 top-8 left-10"
+        className="absolute hidden opacity-25 md:block top-8 left-10"
         src="/percent.svg"
         height="20"
         width="60"
         alt=""
       ></Image>
-      <div className="md:text-left text-center pb-5 lg:pb-0 lg:border-b-0 xl:pr-12  sm:w-[25rem] md:w-[25rem]  relative md:pl-10 xl:pl-0">
-        <p className="text-xl text-white md:text-2xl lg:pl-1 lg:py-1">
-          Book now to
-        </p>
-        <p className="text-5xl font-bold tracking-wider text-white lg:text-6xl lg:pl-1 lg:py-1">
-          SAVE BIG
-        </p>
-        <p className="text-xl text-white lg:text-2xl lg:pl-1 lg:py-1">
-          On Your Next Trip
+      <div className="relative w-full text-center md:w-96 md:text-left md:pr-12 md:pl-8 xl:pl-0">
+        <p className="py-1 pl-1 text-2xl text-white">Your plan has</p>
+        <p className="py-2 pl-1 text-4xl font-bold tracking-wider text-white bg-red-400 rounded-full px- md:text-6xl md:bg-transparent bg-opacity-60 md:px-0">
+          EXPIRED
         </p>
         <Image
-          className="absolute hidden opacity-25 md:right-10 md:block mb-80 -top-6"
+          className="absolute opacity-25 md:block mb-80 -top-6 -right-2"
           src="/percent.svg"
           height="20"
           width="40"
           alt=""
         ></Image>
+
+        <div className="">
+          <Ammountusersaved savedAmount={"₹ 2450"} />
+        </div>
+        
       </div>
-      <hr className="w-3/4 border-1 md:hidden" />
+      
       <span className="xl:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
-      <div className="mt-2 text-center pl-22 md:text-left lg:mt-0 lg:px-0">
-        <p className="px-2 text-xs font-medium text-white md:my-2 xl:text-lg md:pl-2">
-          Make travel your lifestyle with the Travelxp RED.
-        </p>
-        <p className="p-1 px-2 text-xs text-white md:mb-5 xl:text-lg md:pl-2">
-          Avail these exclusive discounts and offers with your membership!
-        </p>
-        <div className="grid mt-2 md:mt-0">
+      <div className="grid xl:mr-[33px] lg:ml-[0px] 2xl:ml-0">
+        <div className="grid pl-2 mt-2 md:mt-0 md:pl-0">
           <div className="flex overflow-x-scroll no-scrollbar">
             <Offersquarecard
               divImg={
@@ -89,16 +85,31 @@ function Second() {
             />
           </div>
         </div>
-        <Image
-          className="absolute mt-48 opacity-25 top-14 right-10"
-          src="/percent.svg"
-          height="40"
-          width="132"
-          alt=""
-        ></Image>
+        <Statusoffercard
+          divBGColor={"bg-red-400"}
+          divTop={"Renew now to get an"}
+          divCenter={"Additional Month"}
+          divBottom={"for free"}
+          divBtn={"Redeem Now"}
+          divImg={
+            <Image
+              src={"/calendar.svg"}
+              height={60}
+              width={60}
+              alt="calendar"
+            />
+          }
+        />
       </div>
+      <Image
+        className="absolute hidden opacity-25 md:hidden xl:block mt-80 w-top-8 right-10"
+        src="/percent.svg"
+        height="20"
+        width="132"
+        alt=""
+      ></Image>
     </div>
   );
 }
 
-export default Second;
+export default usersubexpired;

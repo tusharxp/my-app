@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Plandetails(props) {
+export default function plandetails(props) {
   const {expiryDate, amount, planDuration, divHight, divWidth, divBackColor} = props
   return (
     <div className={`hidden md:block p-3 mt-3 text-xs bg-white md:p-3 ${divHight} ${divWidth} ${divBackColor} rounded-2xl`}  >

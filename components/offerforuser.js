@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import Rectanglecard from "./Rectanglecard";
+import Rectangulercard from "./rectangulercard";
 import Squarecard from "./Squarecard";
 
-function Third() {
+function offerforuser() {
   return (
     <>
       <div className="mx-auto mt-20 ">
         <p className="pl-2 text-lg font-bold text-black">Offers For You</p>
         <div className="flex pt-2 overflow-x-scroll no-scrollbar md:justify-center">
-          <Rectanglecard 
+          <Rectangulercard 
            divImg={
               <Image
                 src={"/rectange-card-1.svg"}
@@ -19,7 +19,7 @@ function Third() {
                 className="md:hidden"
               />
             } />
-          <Rectanglecard 
+          <Rectangulercard 
            divImg={
               <Image
                 src={"/rectange-card-1.svg"}
@@ -82,4 +82,4 @@ function Third() {
   );
 }
 
-export default Third;
+export default offerforuser;

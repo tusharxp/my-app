@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Yousavedcard(props) {
+export default function ammountusersaved(props) {
   const { savedAmount, divHight, divWidth, divBackColor } = props;
   return (
     <div

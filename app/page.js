@@ -1,20 +1,19 @@
-import Expired from '@/components/Expired'
-import Welcome from '@/components/Welcome'
+import Usersubexpired from '@/components/usersubexpired'
+import Firstsection from '@/components/firstsection'
 import Forth from '@/components/Forth'
-import Nearexpire from '@/components/Nearexpire'
-import Second from '@/components/Second'
-import Offerforyou from '@/components/Offerforyou'
-import Image from 'next/image'
+import Usersubnearexpire from '@/components/usersubnearexpire'
+import Usersubnormalui from '@/components/usersubnormalui'
+import Offerforuser from '@/components/offerforuser'
 
 export default function Home() {
+
   return (
     <main className="flex flex-col min-h-screen bg-white">
-      {/* <Navbar /> */}
-      <Welcome />
-      <Second />
-      <Nearexpire />
-      <Expired />
-      <Offerforyou />
+      <Firstsection />
+      <Usersubnormalui />
+      <Usersubnearexpire />
+      <Usersubexpired/>
+      <Offerforuser />
       <Forth />
     </main>
   )

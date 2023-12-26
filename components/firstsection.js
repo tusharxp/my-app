@@ -1,8 +1,7 @@
 import React from "react";
-import Image from "next/image";
-import Plandetails from "./Plandetails";
+import Plandetails from "./plandetails";
 
-function First() {
+function firstsection() {
   return (
     <div className="bg-gradient-to-t from-rose-100 to-orange-50 bg-light1 ">
       <div className="pt-10 xl:px-40">
@@ -47,4 +46,4 @@ function First() {
   );
 }
 
-export default First;
+export default firstsection;

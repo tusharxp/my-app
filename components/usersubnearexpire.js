@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import Yousavedcard from "./Yousavedcard";
-import Statusoffercard from "./Statusoffercard";
+import Ammountusersaved from "./ammountusersaved";
+import Statusoffercard from "./discountcard";
 import Offersquarecard from "./Offersquarecard";
 
-function Nearexpire() {
+function usersubnearexpire() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-500 xl:px-52 justify-items-center ">
+    <div className="relative flex flex-wrap items-center pt-12 pb-10 justify-evenly md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-500 xl:px-28 2xl:px-52 justify-items-center ">
       <Image
         className="absolute hidden opacity-25 md:block mb-80 top-8 left-10"
         src="/percent.svg"
@@ -31,7 +31,7 @@ function Nearexpire() {
         />
 
         <div className="">
-          <Yousavedcard savedAmount={"₹ 2451"} divWidth={'sm:w-full'}/>
+          <Ammountusersaved savedAmount={"₹ 2451"} divWidth={'sm:w-full'}/>
         </div>
       </div>
 
@@ -126,4 +126,4 @@ function Nearexpire() {
   );
 }
 
-export default Nearexpire;
+export default usersubnearexpire;
