@@ -15,7 +15,7 @@ function Forth() {
 
       <div className="hidden md:block">
         <div className="grid content-center justify-center grid-flow-col grid-rows-2 pb-24 gap-7 m-14">
-          <div className=" bg-gradient-to-r from-red-400 to-rose-600 rounded-l-full text-white lg:w-[27rem] p-5 lg:flex relative">
+          <div className=" bg-gradient-to-r  from-rose-400 to-red-600 rounded-l-full text-white lg:w-[27rem] p-5 lg:flex relative">
             <Image
               className="mr-2 bg-white absolute top-6 -left-11 border-[6px] rounded-full border-light1 w-[100px] h-[100px]"
               src="/illustration-1.svg"
@@ -33,7 +33,7 @@ function Forth() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-red-400 to-rose-600 rounded-l-full text-white lg:w-[27rem] lg:flex p-5 relative">
+          <div className="bg-gradient-to-r from-rose-400 to-red-600 rounded-l-full text-white lg:w-[27rem] lg:flex p-5 relative">
             <Image
               className="mr-2 bg-white absolute top-6 -left-11 border-[6px] rounded-full border-light1 w-[100px] h-[100px]"
               src="/illustration-3.svg"

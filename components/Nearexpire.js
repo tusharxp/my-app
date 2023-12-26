@@ -6,7 +6,7 @@ import Offersquarecard from "./Offersquarecard";
 
 function Nearexpire() {
   return (
-    <div className="relative flex flex-wrap items-center justify-around pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-600 xl:px-52 justify-items-center ">
+    <div className="relative flex flex-wrap items-center justify-around pt-12 pb-10 md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-500 xl:px-52 justify-items-center ">
       <Image
         className="absolute hidden opacity-25 md:block mb-80 top-8 left-10"
         src="/percent.svg"
