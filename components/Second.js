@@ -34,10 +34,10 @@ function Second() {
       <span className="xl:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
       <div className="mt-2 text-center pl-22 md:text-left lg:mt-0 lg:px-0">
-        <p className="text-white md:my-2 xl:text-lg md:pl-2 font-medium text-[0.9rem] px-2">
+        <p className="px-2 text-xs font-medium text-white md:my-2 xl:text-lg md:pl-2">
           Make travel your lifestyle with the Travelxp RED.
         </p>
-        <p className="px-2 text-white md:mb-5 xl:text-lg md:pl-2">
+        <p className="p-1 px-2 text-xs text-white md:mb-5 xl:text-lg md:pl-2">
           Avail these exclusive discounts and offers with your membership!
         </p>
         <div className="grid mt-2 md:mt-0">

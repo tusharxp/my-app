@@ -86,7 +86,7 @@ function Forth() {
       </div>
       {/* mobile view */}
       <div className="flex max-w-full pt-10 overflow-x-auto md:hidden no-scrollbar pb-28">
-        <div className="flex-shrink-0 w-64 h-64 mx-1 text-white bg-red1 rounded-3xl">
+        <div className="flex-shrink-0 w-64 h-64 mx-1 text-white bg-rose-400 rounded-3xl">
           <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="mr-2 "
@@ -96,7 +96,7 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-red1 ">
+          <div className="bg-rose-400 ">
             <h1 className="p-2 font-semibold text-center">
               Your Journey, Our Story
             </h1>
@@ -106,7 +106,7 @@ function Forth() {
             </p>
           </div>
         </div>
-        <div className="flex-shrink-0 h-64 mx-1 text-white bg-red1 w-72 rounded-3xl">
+        <div className="flex-shrink-0 h-64 mx-1 text-white bg-rose-400 w-72 rounded-3xl">
           <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="mr-2"
@@ -116,7 +116,7 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-red1 rounded-xl">
+          <div className="bg-rose-400 rounded-xl">
             <h1 className="p-2 mb-2 font-semibold text-center">
               Always About You
             </h1>
@@ -126,7 +126,7 @@ function Forth() {
             </p>
           </div>
         </div>
-        <div className="flex-shrink-0 h-64 mx-1 text-white bg-red1 w-72 rounded-3xl ">
+        <div className="flex-shrink-0 h-64 mx-1 text-white bg-rose-400 w-72 rounded-3xl ">
           <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="ml-2"
@@ -145,7 +145,7 @@ function Forth() {
             </p>
           </div>
         </div>
-        <div className="flex-shrink-0 h-64 mx-1 text-white bg-red1 w-72 rounded-3xl">
+        <div className="flex-shrink-0 h-64 mx-1 text-white bg-rose-400 w-72 rounded-3xl">
           <div className="flex items-center justify-center bg-white rounded-t-3xl">
             <Image
               className="ml-2"
@@ -155,7 +155,7 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-red1 ">
+          <div className="bg-rose-400 ">
             <h1 className="p-2 mb-2 font-semibold text-center">
               Share The Happiness
             </h1>
