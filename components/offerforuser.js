@@ -1,7 +1,10 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import Rectangulercard from "./rectangulercard";
-import Squarecard from "./Squarecard";
+import Squarecard from "./squarecard";
+import {user} from "../user"
+console.log(user)
 
 function offerforuser() {
   return (
@@ -10,15 +13,7 @@ function offerforuser() {
         <p className="pl-2 text-lg font-bold text-black">Offers For You</p>
         <div className="flex pt-2 overflow-x-scroll no-scrollbar md:justify-center">
           <Rectangulercard 
-           divImg={
-              <Image
-                src={"/rectange-card-1.svg"}
-                height={100}
-                width={360}
-                alt=""
-                className="md:hidden"
-              />
-            } />
+           divImg={user.data[0].items[0].images} />
           <Rectangulercard 
            divImg={
               <Image

@@ -5,19 +5,8 @@ import Discountoffercard from "./discountcard";
 import Dealsquarecard from "./dealsquarecard";
 import {user} from "../user"
 
-function usersubnearexpire() {
-  
-  function calculateRemainingDays(expiryDate) {
-    const expiryDateObject = new Date(expiryDate);
-  
-    const currentDate = new Date();
-  
-    const timeDifference = expiryDateObject.getTime() - currentDate.getTime();
-  
-    const remainingDays = Math.ceil(timeDifference / (24 * 60 * 60 * 1000));
-  
-    return remainingDays;
-  }
+function usersubnearexpire(props) {
+  const{calculateRemainingDays}= props
   
   const expiryDate = `${user.user.subscription.end_date}`; 
   
