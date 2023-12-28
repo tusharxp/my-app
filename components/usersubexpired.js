@@ -3,6 +3,7 @@ import Image from "next/image";
 import Ammountusersaved from "./ammountusersaved";
 import Dealsquarecard from "./dealsquarecard";
 import Discountoffercard from "./discountoffercard";
+import {user} from "../user"
 
 function usersubexpired() {
   return (
@@ -28,7 +29,7 @@ function usersubexpired() {
         ></Image>
 
         <div className="">
-          <Ammountusersaved savedAmount={"₹ 2450"} />
+          <Ammountusersaved savedAmount={`${user.user.subscription.savings.total}`} />
         </div>
         
       </div>
@@ -48,7 +49,7 @@ function usersubexpired() {
                   className="p-1 mb-2 bg-pink-100 rounded-md"
                 />
               }
-              savedAmount={"2000"}
+              savedAmount={`${user.user.subscription.savings.flight}`}
               divHight={"h-40"}
               divWidth={"w-40"}
               divBGColor={"bg-white"}
@@ -63,7 +64,7 @@ function usersubexpired() {
                   className="p-1 mb-2 bg-pink-100 rounded-md"
                 />
               }
-              savedAmount={"2000"}
+              savedAmount={`${user.user.subscription.savings.hotel}`}
               divHight={"h-40"}
               divWidth={"w-40"}
               divBGColor={"bg-white"}
@@ -78,7 +79,7 @@ function usersubexpired() {
                   className="p-1 mb-2 bg-pink-100 rounded-md"
                 />
               }
-              savedAmount={"2000"}
+              savedAmount={`${user.user.subscription.savings.holiday}`}
               divHight={"h-40"}
               divWidth={"w-40"}
               divBGColor={"bg-white"}

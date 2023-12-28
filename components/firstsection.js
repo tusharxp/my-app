@@ -3,6 +3,8 @@ import Subscriptiondetails from "./subscriptiondetails";
 import {user} from "../user"
 
 function firstsection() {
+  
+
   return (
     <div className="bg-gradient-to-t from-rose-100 to-orange-50 bg-light1 ">
       <div className="pt-10 xl:px-40">
@@ -12,10 +14,10 @@ function firstsection() {
               Welcome to
             </p>
             <p className=" lg:text-5xl sm:text-3xl text-4xl font-[900] text-red1 tracking-wider">
-              Travelxp RED
+              Travelxp {user.user.subscription.plan_name}
             </p>
             
-            <Subscriptiondetails planDuration={'365 Days'} amount={`${user.user.subscription.amount}`} expiryDate={'6 Dec 2022'} />
+            <Subscriptiondetails planDuration={`${user.user.subscription.validity}`} amount={`${user.user.subscription.amount}`} expiryDate={`${user.user.subscription.end_date}`} />
             
           </div>
           <img
@@ -33,13 +35,13 @@ function firstsection() {
         <div className="p-4 ml-3 mr-3 align-middle border-black shadow-xl rounded-t-3xl bg-gradient-to-l from-rose-100 to-orange-50 ">
           <p className="flex justify-between py-1 font-medium tracking-wide text-left text-gray-800">
             Current Plan Duration :
-            <span className="font-bold ">365 Days</span>
+            <span className="font-bold ">{user.user.subscription.validity}</span>
           </p>
           <p className="flex justify-between py-1 font-medium tracking-wide text-left text-gray-800">
-            Subscription Amount :<span className="font-bold">1899</span>
+            Subscription Amount :<span className="font-bold">{user.user.subscription.amount}</span>
           </p>
           <p className="flex justify-between py-1 font-medium tracking-wide text-left text-gray-800">
-            Plan Expiry Date :<span className="font-bold">6 Dec 2022</span>
+            Plan Expiry Date :<span className="font-bold">{user.user.subscription.end_date}</span>
           </p>
         </div>
       </div>

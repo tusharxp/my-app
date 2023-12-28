@@ -12,8 +12,8 @@ export const user = {
       concurrent: 5,
       show_ads: false,
       download: false,
-      start_date: "",
-      end_date: "",
+      start_date: "01-01-2023",
+      end_date: "01-01-2024",
       validity: 365,
       savings: {
         total: 0,

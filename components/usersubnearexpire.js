@@ -3,8 +3,28 @@ import Image from "next/image";
 import Ammountusersaved from "./ammountusersaved";
 import Discountoffercard from "./discountcard";
 import Dealsquarecard from "./dealsquarecard";
+import {user} from "../user"
 
 function usersubnearexpire() {
+  
+  function calculateRemainingDays(expiryDate) {
+    const expiryDateObject = new Date(expiryDate);
+  
+    const currentDate = new Date();
+  
+    const timeDifference = expiryDateObject.getTime() - currentDate.getTime();
+  
+    const remainingDays = Math.ceil(timeDifference / (24 * 60 * 60 * 1000));
+  
+    return remainingDays;
+  }
+  
+  const expiryDate = `${user.user.subscription.end_date}`; 
+  
+  const remainingDays = calculateRemainingDays(expiryDate);
+  
+
+
   return (
     <div className="relative flex flex-wrap items-center pt-12 pb-10 justify-evenly md:flex-nowrap bg-gradient-to-r from-red-400 to-rose-500 xl:px-28 2xl:px-52 justify-items-center ">
       <Image
@@ -19,7 +39,7 @@ function usersubnearexpire() {
           Expires in
         </p>
         <p className="mx-20 text-4xl font-bold tracking-wide text-white bg-red-400 rounded-full sm:mx-0 md:bg-transparent bg-opacity-60 lg:mx-0 md:text-6xl md:py-2 md:pl-1 ">
-          {"45 DAYS"}
+          {remainingDays} Days
         </p>
 
         <Image
@@ -31,7 +51,7 @@ function usersubnearexpire() {
         />
 
         <div className="">
-          <Ammountusersaved savedAmount={"₹ 2451"} divWidth={'sm:w-full'}/>
+          <Ammountusersaved savedAmount={`${user.user.subscription.savings.total}`} divWidth={'sm:w-full'}/>
         </div>
       </div>
 
@@ -66,7 +86,7 @@ function usersubnearexpire() {
                     className="p-1 mb-2 bg-pink-100 rounded-md"
                   />
                 }
-                savedAmount={"2000"}
+                savedAmount={`${user.user.subscription.savings.flight}`}
                 divHight={"h-40"}
                 divWidth={"w-40"}
                 divBGColor={"bg-white"}
@@ -81,7 +101,7 @@ function usersubnearexpire() {
                     className="p-1 mb-2 bg-pink-100 rounded-md"
                   />
                 }
-                savedAmount={"2000"}
+                savedAmount={`${user.user.subscription.savings.hotel}`}
                 divHight={"h-40"}
                 divWidth={"w-40"}
                 divBGColor={"bg-white"}
@@ -96,7 +116,7 @@ function usersubnearexpire() {
                     className="p-1 mb-2 bg-pink-100 rounded-md"
                   />
                 }
-                savedAmount={"2000"}
+                savedAmount={`${user.user.subscription.savings.holiday}`}
                 divHight={"h-40"}
                 divWidth={"w-40"}
                 divBGColor={"bg-white"}
