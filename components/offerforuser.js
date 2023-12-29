@@ -25,7 +25,7 @@ const { data } = user;
                  height={100}
                  width={360}
                  alt={offer.title}
-                //  className="md:hidden"
+                 className="lg:w-[570px] lg:overflow-y-hidden"
                />
                   ))
                 }
@@ -39,11 +39,11 @@ const { data } = user;
              item.items.map((offer, offerIndex) => (
                <Image
                  key={offerIndex}
-                 src={offer.items[0].images[0].image} 
+                 src={offer.items[0].images[1].image} 
                  height={100}
                  width={360}
                  alt={offer.title}
-                //  className="md:hidden"
+                 className="lg:w-[570px] lg:overflow-y-hidden"
                />
                   ))
                 }
