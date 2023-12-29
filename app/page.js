@@ -23,12 +23,10 @@ export default function Home() {
   const expiryDate = `${user.user.subscription.end_date}`; 
   
   const remainingDays = calculateRemainingDays(expiryDate);
-  console.log(remainingDays);
   
   
 
   function switchBetweenTwoConditions(plan) {
-    console.log(plan)
     if(plan=== ""){
           return 1;
     }
@@ -40,7 +38,6 @@ export default function Home() {
   }
 
   const value=switchBetweenTwoConditions(user?.user?.subscription?.plan_name)
-  console.log(value)
 
   return (
     <main className="flex flex-col min-h-screen bg-white">
