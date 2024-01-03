@@ -67,15 +67,13 @@ export const user = {
               images: [
                 {
                   image:
-                    // "/programs/city_breaks_5f97c79dc5095d7e3af8c589/city_breaks_s1_e3_1080_1620_2_3_logo_v6.JPG",
-                    "rectange-card-1.svg",
+                    "/programs/city_breaks_5f97c79dc5095d7e3af8c589/city_breaks_s1_e3_1080_1620_2_3_logo_v6.JPG",
                   aspect: "2:3",
                   logo: true,
                 },
                 {
                   image:
-                    // "/programs/city_breaks_5f97c79dc5095d7e3af8c589/city_breaks_s1_e3_1080_1920_9_16_logo_v6.JPG",
-                    "rectange-card-1.svg",
+                    "/programs/city_breaks_5f97c79dc5095d7e3af8c589/city_breaks_s1_e3_1080_1920_9_16_logo_v6.JPG",
                   aspect: "9:16",
                   logo: true,
                 },
