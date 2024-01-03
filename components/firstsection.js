@@ -4,7 +4,19 @@ import {user} from "../user"
 
 
 function firstsection() {
-  
+
+  function showDateStatus() {
+    const currentDate = new Date();
+    const endDate = new Date(user.user.subscription.end_date);
+
+    if (currentDate > endDate) {
+        return `Last `;
+    } else {
+        return `Current `;
+    }
+}
+
+const dateStatusMessage = showDateStatus(user.user.subscription);
 
   return (
     <div className="bg-gradient-to-t from-rose-100 to-orange-50 bg-light1 ">
@@ -35,7 +47,7 @@ function firstsection() {
       <div className="px-4 pt-8 bg-white rounded-t-3xl lg:pt-0 md:hidden">
         <div className="p-4 ml-3 mr-3 align-middle border-black shadow-xl rounded-t-3xl bg-gradient-to-l from-rose-100 to-orange-50 ">
           <p className="flex justify-between py-1 font-medium tracking-wide text-left text-gray-800">
-            Current Plan Duration :
+          {dateStatusMessage} Plan Duration :
             <span className="font-bold ">{user.user.subscription.validity}</span>
           </p>
           <p className="flex justify-between py-1 font-medium tracking-wide text-left text-gray-800">

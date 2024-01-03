@@ -22,7 +22,7 @@ function offerforuser() {
     }
   })
 
-  console.log(finalData.image)
+  // console.log(finalData.image)
 
   return (
     <>

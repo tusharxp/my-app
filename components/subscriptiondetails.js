@@ -4,18 +4,19 @@ import {user} from "../user"
 export default function subscriptiondetails(props) {
   const {expiryDate, amount, planDuration, divHight, divWidth, divBackColor} = props
 
-function showDateStatus(subscription) {
-  const currentDate = new Date();
-  const endDate = new Date(subscription.end_date);
+  function showDateStatus() {
+    const currentDate = new Date();
+    const endDate = new Date(user.user.subscription.end_date);
 
-  if (currentDate > endDate) {
-      return `Last `;
-  } else {
-      return `Current `;
-  }
+    if (currentDate >= endDate) {
+        return `Last `;
+    } else {
+        return `Current `;
+    }
 }
 
 const dateStatusMessage = showDateStatus(user.user.subscription);
+console.log(dateStatusMessage)
 
 
   return (
