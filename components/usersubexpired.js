@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Ammountusersaved from "./ammountusersaved";
+import Ammountusersaved from "./savedamount";
 import Dealsquarecard from "./dealsquarecard";
 import Discountoffercard from "./discountoffercard";
 import {user} from "../user"
